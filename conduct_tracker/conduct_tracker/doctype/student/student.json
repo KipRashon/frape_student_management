@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "autoname": "ADM-.####.",
+ "creation": "2025-10-30 19:03:45.047271",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gdyr",
+  "student_name",
+  "parent_name",
+  "parent_email",
+  "column_break_owta",
+  "student_class",
+  "stream",
+  "current_conduct_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_gdyr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parent_email",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Parent Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_owta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "student_class",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Student Class",
+   "options": "Form One\nForm Two\nForm Three\nForm Four",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stream",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Stream",
+   "options": "East\nWest\nSouth\nNorth",
+   "reqd": 1
+  },
+  {
+   "default": "100",
+   "fieldname": "current_conduct_score",
+   "fieldtype": "Float",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Current Conduct Score",
+   "precision": "1",
+   "read_only": 1
+  },
+  {
+   "fieldname": "parent_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Parent Name"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Name",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-31 17:08:32.761980",
+ "modified_by": "Administrator",
+ "module": "Conduct Tracker",
+ "name": "Student",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "student_name",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "student_name",
+ "translated_doctype": 1
+}

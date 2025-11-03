@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "creation": "2025-10-30 21:04:47.510268",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "users",
+ "idx": 0,
+ "modified": "2025-10-30 21:04:47.510268",
+ "modified_by": "Administrator",
+ "module": "Conduct Tracker",
+ "name": "students",
+ "owner": "Administrator",
+ "page_name": "students",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Students"
+}
